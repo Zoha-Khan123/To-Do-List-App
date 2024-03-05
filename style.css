@@ -1,0 +1,65 @@
+.box {
+  width: 360px;
+  height: 100%;
+  padding: 33px;
+  text-align: center;
+  background-color: aqua;
+  margin-left: 33%;
+  margin-top: 5px;
+  border-radius: 1rem;
+  border-style: solid;
+  box-shadow: 5px 6px 10px;
+}
+
+.heading {
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 1rem;
+  background-color: rgb(34, 17, 226);
+  font-weight: bolder;
+  text-align: center;
+  border-style: solid;
+}
+
+button {
+  height: 40px;
+  width: 90px;
+  font-style: italic;
+  border-radius: 1rem;
+  background-color: rgb(34, 17, 226);
+  font-size: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  outline: none;
+  color: white;
+}
+button:hover{
+  background-color: rgb(65, 53, 244);
+}
+input {
+  height: 30px;
+  width: 220px;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 20px;
+  border-radius: 1rem;
+  border-color: rgb(34, 17, 226);
+  outline: none;
+}
+
+.text ul {
+  position: relative;
+  background-color: rgb(12, 25, 208);
+  color: white;
+  font-size: 19px;
+  text-align: left;
+  padding: 15px;
+  border-radius: 1rem;
+}
+
+.text ul i {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
